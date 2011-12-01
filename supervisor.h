@@ -1,7 +1,7 @@
 /***************************************************************************
+ * Author: eddix<elitecharm@gmail.com>
  * 
- * Copyright (c) 2011 RENREN.com, Inc. All Rights Reserved
- * 
+ * All rights reserved
  **************************************************************************/
  
 #ifndef  __SUPERVISOR_H_
