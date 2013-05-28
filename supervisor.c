@@ -1,9 +1,9 @@
 /***************************************************************************
  * Author: eddix<elitecharm@gmail.com>
- * 
+ *
  * All rights reserved
  **************************************************************************/
- 
+
 #include "supervisor.h"
 #include <stdio.h>
 #include <unistd.h>
@@ -54,6 +54,7 @@ int main(int argc, char **argv)
             sleep(1);
         } else {
             execvp(argv[1], &argv[1]);
+            exit(EXIT_FAILURE);
         }
     }
 }
